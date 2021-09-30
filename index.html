@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bando Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+       
+
+        <nav>
+
+            <div class="logo">
+                <a href=""> <span>Bando Receitas </span> </a>    
+            </div>
+
+
+            <div class="mobile-menu" id="menu-opener" >
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+              <ul class="nav-list " >
+                <li><a href="">Bolos</a></li>
+                <li><a href="">Carnes</a></li>
+                <li><a href="">Doces</a></li>
+                <li><a href="">Frango</a></li>
+                <li><a href="">Massas</a></li>
+                <li><a href="">Pães</a></li>
+                <li><a href="">Petiscos</a></li>
+              </ul>
+
+<!--
+
+
+script
+
+class MobileNavbar {
+    constructor(mobileMenu, navList, navLinks) {
+      this.mobileMenu = document.querySelector(mobileMenu);
+      this.navList = document.querySelector(navList);
+      this.navLinks = document.querySelectorAll(navLinks);
+      this.activeClass = "active";
+  
+      this.handleClick = this.handleClick.bind(this);
+    }
+  
+    animateLinks() {
+      this.navLinks.forEach((link, index) => {
+        link.style.animation
+          ? (link.style.animation = "")
+          : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+              index / 7 + 0.3
+            }s`);
+      });
+    }
+  
+    handleClick() {
+      this.navList.classList.toggle(this.activeClass);
+      this.mobileMenu.classList.toggle(this.activeClass);
+      this.animateLinks();
+    }
+  
+    addClickEvent() {
+      this.mobileMenu.addEventListener("click", this.handleClick);
+    }
+  
+    init() {
+      if (this.mobileMenu) {
+        this.addClickEvent();
+      }
+      return this;
+    }
+  }
+  
+  const mobileNavbar = new MobileNavbar(
+    ".mobile-menu",
+    ".nav-list",
+    ".nav-list li",
+  );
+  mobileNavbar.init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <ul class="nav-list">
+                <li><a href="">Bolos</a></li>
+                <li><a href="">Carnes</a></li>
+                <li><a href="">Doces</a></li>
+                <li><a href="">Frango</a></li>
+                <li><a href="">Massas</a></li>
+                <li><a href="">Pães</a></li>
+                <li><a href="">Petiscos</a></li>
+            </ul>
+-->
+          
+
+            <div class="redes-sociais">
+              
+                   
+                <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+            
+              
+                <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
+              
+             
+                <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" /></a>
+              
+              
+         
+         </div>
+
+        </nav>
+
+        <div  class="slot ng-star-inserted">
+            <div  class="container">
+            <form  class="ng-untouched ng-pristine ng-valid">
+                <input  id="input" type="search" formcontrolname="text" placeholder="Pesquisar receita" class="ng-untouched ng-pristine ng-valid">
+               
+                </form>
+            </div>
+        </div>
+
+      
+    
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="image">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h2 class="title">
+                    Com qual ingrediente você quer cozinhar ?
+                </h2>
+                <p class="subtitle">
+                    Escreva o item abaixo e te sugerimos uma receita deliciosa!
+                </p>
+                <br>
+                <form action="" class="input2">
+                    <input type="text" id="" class="input2" placeholder="Pesquisar Ingrediente">
+                </form>
+            </div>
+        </section>
+
+
+        <section class="section form">
+            <div class="text">
+                <h2 class="title">Inscreva-se </h2>
+                <p class="subtitle">
+                  <span>para receber nossas novidades</span> 
+               </p>
+         
+            </div>
+               <div class="cadastro">
+                <input type="text" name="" id="" class="nome" placeholder="Nome*" >
+                <input type="email" value="" class="email" placeholder="Email*">
+                <input type="button" value="Cadastrar" class="btn"> 
+               </div>
+               
+                
+           
+        </section>
+
+
+        <div class="divider-2"></div>
+
+        <section class="section">
+           <div class="cards-menu">
+               <ul class="categorias-menu">
+                   <li  class="active" ><a href="" >Todos os Programas</a></li>
+                   <li><a href=""> Dia Dia  </a></li>
+                   <li><a href=""> Master Chef </a></li>
+                   <li><a href="">Melhor da Tarde </a></li>
+                   <li><a href=""> Pesadelo na Cozinha</a></li>
+                   <li><a href=""> The Chef </a></li>
+                   <li><a href="">Duelo de Mães </a></li>
+               </ul>
+           </div>
+ 
+        </section>
+
+
+        <section  class="section">
+            <div class="image">
+                <img class="box-img" src="img/2.jpg" alt="">
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-description">
+                            <span>
+                              Frutas e Legumes
+                            </span>
+                        </h3>
+                        <h2 class="title">
+                            Pote de Verduras | Bando receitas
+                        </h2>
+                    </div>
+
+                    <div class="footer-box">
+                        <div>Dalton Rangel</div>
+
+                        <div class="redes-sociais">
+                            <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+            
+              
+                     <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
+              
+             
+                        <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="image">
+                <img class="box-img"  src="img/3.jpg" alt="">
+                <div class="box">
+                    <div class="box-title">
+                        <h3 class="box-description">
+                            <span>
+                                Frango com Abobora
+                            </span>
+                        </h3>
+                        <h2 class="title">
+                            Farngo na Abobora | Bando receitas
+                        </h2>
+                    </div>
+
+                    <div class="footer-box">
+                        <div>Dalton Rangel</div>
+
+                        <div class="redes-sociais">
+                            <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+            
+              
+                     <a href="#"><img src="img/instagram.svg" alt="Instagram" /></a>
+              
+             
+                        <a href="#"><img src="img/whatsapp.svg" alt="WhatsApp" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ </section>
+
+
+
+
+
+
+
+
+
+ <section class="section cards">
+    <div class="image">
+        <img class="box-img-card"  src="img/4.jpg" alt="">
+        <div class="box-card">
+            <h3 class="box-description">
+                <span>
+                   acompanhamentos
+                </span>
+            </h3>
+            <h2 class="title">
+                Farngo na Abobora | Bando receitas
+            </h2>
+        </div>
+    </div>
+    <div class="image">
+        <img class="box-img-card"  src="img/5.jpg" alt="">
+        <div class="box-card">
+            <h3 class="box-description">
+                <span>
+                   acompanhamentos
+                </span>
+            </h3>
+            <h2 class="title">
+                Farngo na Abobora | Bando receitas
+            </h2>
+        </div>
+    </div>
+    <div class="image">
+        <img class="box-img-card"  src="img/6.jpg" alt="">
+        <div class="box-card">
+            <h3 class="box-description">
+                <span>
+                   acompanhamentos
+                </span>
+            </h3>
+            <h2 class="title">
+                Farngo na Abobora | Bando receitas
+            </h2>
+        </div>
+    </div>
+    <div class="image">
+        <img class="box-img-card"  src="img/7.jpg" alt="">
+        <div class="box-card">
+            <h3 class="box-description">
+                <span>
+                   acompanhamentos
+                </span>
+            </h3>
+            <h2 class="title">
+                Farngo na Abobora | Bando receitas
+            </h2>
+        </div>
+    </div>
+
+
+
+ </section>
+      
+           
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
